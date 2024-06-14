@@ -1,0 +1,5 @@
+Joueur([IDJoueur], PseudoEquipe,Role, #IDEquipe, #IDPartie)
+Equipe([IDEquipe], Nom, Points, #IDPartie)
+CarteJouee([#IDCarte], [#IDPartie], Couleur)
+Partie([IDPartie], Code, Etat)
+Carte([IDCarte], Nom)
